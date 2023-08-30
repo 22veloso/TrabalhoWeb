@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#form1 {
+    width: 292px;
+    height: 391px;
+}
+.fundo {
+    background-image: linear-gradient(45deg,black,#ff5e00);
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.calculadora{
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
