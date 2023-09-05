@@ -8,50 +8,36 @@
    
     <link rel="stylesheet" type="text/css" href="calculadora.css" />
     
-    <script type = "text/javascript" src=""></script>
+    <script type = "text/javascript" src="calculadora.js"></script>
     <title>calculadora</title>
 
 <body  >
     <div class="fundo">
     <h1>calculadora</h1>
-    <div class="calculadora">
        
-        <p id="resultado">resultado</p>
-        <table>
-            <tr>
-               <td> <button> </button></td>
-            <td><button>/</button></td>
-            <td><button>C</button></td>
-            <td><button>X</button></td>
-            </tr>
-            <tr>
-            <td><button>7</button></td>
-            <td><button>8</button></td>
-            <td><button>9</button></td>
-            <td><button>-</button></td>
-        </tr>
-            <tr>
-            <td><button>4</button></td>
-            <td><button>5</button></td>
-            <td><button>6</button></td>
-            <td><button>+</button></td>
-            </tr>
-            <tr>
-            <td><button>1</button></td>
-            <td><button>2</button></td>
-            <td><button>3</button></td>
-            <td rowspan="2"><button>=</button></td>
-            </tr>
-            <tr>
-            <td colspan="2"><button>0</button></td>
-            <td><button>.</button></td>
-            
-            </tr>
-        </table>
-       
-            
-       
-    </div>
+        <div class="calculator">
+            <input type="text" id="result" readonly>
+            <br>
+            <button onclick="appendNumber('7')">7</button>
+            <button onclick="appendNumber('8')">8</button>
+            <button onclick="appendNumber('9')">9</button>
+            <button onclick="appendOperator('+')">+</button>
+            <br>
+            <button onclick="appendNumber('4')">4</button>
+            <button onclick="appendNumber('5')">5</button>
+            <button onclick="appendNumber('6')">6</button>
+            <button onclick="appendOperator('-')">-</button>
+            <br>
+            <button onclick="appendNumber('1')">1</button>
+            <button onclick="appendNumber('2')">2</button>
+            <button onclick="appendNumber('3')">3</button>
+            <button onclick="appendOperator('*')">X</button>
+            <br>
+            <button onclick="appendNumber('0')">0</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="clearCalculator()">C</button>
+            <button onclick="appendOperator('/')">/</button>
+        </div>
 </div>
 </body>
 </html>
